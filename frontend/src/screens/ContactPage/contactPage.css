@@ -1,0 +1,73 @@
+.contactPage {
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    background-color: var(--color-principal);
+    overflow: hidden;
+    height: 100%;
+
+}
+
+.tltContact {
+    color: var(--color-secundario);
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+
+}
+
+.contactFormPosts {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+
+}
+
+.mensajeCont {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 50%;
+}
+
+.inputContact {
+    display: flex;
+    text-align: left;
+    justify-content: center;
+
+    border: none;
+    border-radius: 3px;
+    background-color: var(--color-secundario);
+
+}
+
+.formContact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 15px;
+    max-width: 600px;
+    background-color: #e9f3eaa2;
+    padding: 20px;
+    border-radius: 20px 0px;
+}
+
+label {
+    margin: 3px;
+    color: var(--color-txt);
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+textarea {
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 5px;
+}

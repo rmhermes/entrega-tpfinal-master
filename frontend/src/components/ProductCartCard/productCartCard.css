@@ -1,0 +1,24 @@
+.cartCard {
+    font-size: .8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    background-color: var(--color-secundario);
+    padding: 10px 15px;
+    margin: 10px;
+    border: 2px solid var(--color-btn);
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px var(--color-link);
+}
+
+.imgCardCart {
+
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}

@@ -1,0 +1,73 @@
+.homePage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-principal);
+    overflow: hidden;
+
+}
+
+.homeSearch {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin-top: 10px;
+
+}
+
+.buscador {
+    padding: 10px 45px;
+    margin: 4px;
+    width: 180px;
+    display: flex;
+    text-align: center;
+    border: none;
+    border-radius: 6px;
+    background-color: var(--color-secundario);
+
+}
+
+.inputPrecio {
+    margin-top: 5px;
+    display: flex;
+
+    flex-direction: row;
+
+}
+
+.inputNumber {
+    display: flex;
+    text-align: center;
+    border-radius: 6px;
+    background-color: var(--color-secundario);
+    border: none;
+    width: 135px;
+    margin-bottom: 3px;
+}
+
+.precioCont {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+
+.precioCont h5 {
+    display: none;
+}
+
+.cardsHome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.noProductAlert {
+    padding: 50px 0px;
+    color: var(  --color-secundario);
+    font-weight: 400;
+}

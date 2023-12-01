@@ -1,0 +1,42 @@
+.detailPage {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-principal);
+}
+
+.contDetail {
+    font-size: 0.8rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 450px;
+    background-color: var(--color-secundario);
+    padding: 20px;
+    margin: 10px;
+    border: 2px solid var(--color-btn);
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px var(--color-link);
+}
+
+.contDetail p {
+    font-weight: 600;
+    font-size: .9rem;
+    margin: 10px;
+
+}
+
+.counterImg {
+    display: flex;
+    justify-content: space-between;
+}
+
+.spanHistoria {
+    border-radius: 15px;
+
+}

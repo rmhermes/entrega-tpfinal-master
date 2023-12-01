@@ -1,0 +1,165 @@
+:root {
+  --color-principal: #397b5c;
+  --color-secundario: #e9f3ea;
+  --color-txt: #16301a;
+  --color-btn: #6ec390be;
+  --color-link: #263E34;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  color: var(--color-txt);
+  font-family: 'Exo', sans-serif;
+
+}
+
+body {
+  height: 100%;
+
+}
+
+a {
+  color: var(--color-link);
+}
+
+.header img {
+  max-width: 20rem;
+}
+
+.navBar {
+  margin: 0;
+  background-color: var(--color-secundario);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  padding: 7px;
+
+}
+
+ul a {
+  color: var(--color-txt);
+  text-decoration: none;
+  margin: 3px 4px;
+  padding: 3px 15px;
+  text-align: center;
+  background-color: var(--color-btn);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  box-shadow: 3px 4px 5px var(--color-link);
+
+  transition: all .3s ease-out;
+}
+
+.btn-config {
+  justify-content: center;
+  padding: 5px;
+  background-color: var(--color-btn);
+  border-radius: 5px;
+  border: 0px;
+}
+
+.navList a:hover {
+  transition: all .3s ease-out;
+  background-color: var(--color-principal);
+  color: var(--color-secundario)
+}
+
+.btn-menu {
+  visibility: hidden;
+}
+
+.footer {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+  background-color: var(--color-secundario);
+}
+
+.spnFooter {
+  font-size: .6rem;
+}
+
+.hFooters {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+@media screen and (max-width: 760px) {}
+
+@media screen and (max-width: 400px) {
+  * {
+    overflow-x: hidden;
+  }
+
+  .navBar a {
+    font-size: .7rem;
+  }
+
+  .btn-menu {
+    visibility: visible;
+  }
+
+  .homeSearch {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .precioCont {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card:hover {
+    box-shadow: none;
+  }
+
+  .formContact {
+    max-width: 300px;
+    padding: 5px;
+    margin: 10px 5px;
+
+  }
+
+  .aboutUs {
+    flex-direction: column;
+  }
+
+  .aboutUsText,
+  .aboutUsText p {
+    font-size: 12px;
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    margin-left: 10px;
+    margin-top: 10px;
+
+  }
+
+  .spanAboutUs {
+    flex-direction: column;
+    max-width: 200px;
+  }
+
+  .footer {
+    display: flex;
+    font-size: 70%;
+    justify-content: center;
+    align-items: center;
+  }
+
+}

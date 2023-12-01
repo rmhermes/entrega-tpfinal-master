@@ -1,0 +1,37 @@
+.contCount {
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+    justify-content: center;
+    align-items: center;
+}
+
+.counter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-weight: 600;
+    gap: 5px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    max-width: 200px;
+}
+
+button {
+    color: var(--color-txt);
+    font-weight: 600;
+    margin: 4px 10px;
+    padding: 4px 15px;
+    text-align: center;
+    background-color: var(--color-btn);
+    border-radius: 5px;
+    box-shadow: 3px 4px 5px var(--color-link);
+}
+
+button:hover {
+    transition: all .3s ease-out;
+    background-color: var(--color-principal);
+    color: var(--color-secundario)
+}

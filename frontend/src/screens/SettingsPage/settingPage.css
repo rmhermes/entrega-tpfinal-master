@@ -1,0 +1,66 @@
+.settingPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-principal);
+    overflow: hidden;
+
+}
+
+.settingSearch {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin-top: 10px;
+
+}
+
+
+.newProductCard {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    background-color: var(--color-secundario);
+    border: 1px solid var(--color-btn);
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px var(--color-link);
+    padding: 15px 15px;
+    margin: 10px;
+    width: 50%;
+}
+
+.leftSide {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: stretch;
+    margin-right: 20px;
+    width: 50%;
+
+}
+
+.rightSide {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 50%;
+}
+
+.cardSetting {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.noProductAlert {
+    padding: 50px 0px;
+}
+.setTitle {
+    padding: 15px 0px;
+    color: var(  --color-secundario);
+    font-weight: 400;
+}

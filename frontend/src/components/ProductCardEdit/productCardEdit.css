@@ -1,0 +1,63 @@
+.settingProductCard {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: var(--color-secundario);
+    border: 1px solid var(--color-btn);
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px var(--color-link);
+    padding: 15px 15px;
+    margin: 10px;
+}
+
+.setButtons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20rem;
+    padding-top: 1rem;
+}
+
+.imgSet {
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    width: 20rem;
+    padding-top: 15px;
+
+}
+
+textarea {
+    resize: none;
+}
+
+.setCard {
+    font-size: .8rem;
+    width: 20rem;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    overflow: hidden;
+    padding-right: 15px;
+
+}
+
+.setCard a {
+    color: var(--color-link);
+    margin-bottom: 5px;
+}
+
+.imgCard {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.setCard h2 {
+    font-weight: 500;
+
+}
