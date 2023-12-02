@@ -19,9 +19,9 @@ const ProductCartCard = ({ producto, initialValue, stock }) => {
                 <button onClick={() => onClickModifyProduct(producto.quantity > 1 ? producto.quantity - 1 : producto.quantity)}>-</button>
 
                 <button onClick={() => onClickModifyProduct(producto.quantity === stock ? producto.quantity : producto.quantity + 1)}>+</button>
-                
+              
             </div>
-
+            <button type="submit">Comprar</button>
         </div>
     )
 }

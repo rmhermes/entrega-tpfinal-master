@@ -69,7 +69,7 @@ ul a {
   border-radius: 5px;
   display: flex;
   align-items: center;
-  box-shadow: 3px 4px 5px var(--color-link);
+  box-shadow: 1px 1px 6px var(--color-link);
 
   transition: all .3s ease-out;
 }
@@ -84,7 +84,7 @@ ul a {
 
 .navList a:hover {
   transition: all .3s ease-out;
-  background-color: var(--color-principal);
+  background-color: #559b7b;
   color: var(--color-secundario)
 }
 
