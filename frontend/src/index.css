@@ -19,7 +19,9 @@ body {
   height: 100%;
 
 }
-
+input{
+  outline : none;
+}
 a {
   color: var(--color-link);
 }
